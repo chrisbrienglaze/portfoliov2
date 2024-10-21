@@ -14,7 +14,8 @@ const About: React.FC = () => {
           </div>
           <div className="md:w-2/3 md:pl-8">
             <p className="text-lg mb-4">
-              Hello! I'm John Doe, a passionate web designer and developer with 5 years of experience. I specialize in creating beautiful, functional, and user-friendly websites that help businesses grow online.
+              Hello! I'm John Doe,</p>
+             <p>  I'am  passionate web designer and developer with 5 years of experience. I specialize in creating beautiful, functional, and user-friendly websites that help businesses grow online.
             </p>
             <p className="text-lg mb-4">
               My skills include HTML, CSS, JavaScript, React, and Node.js. I'm always eager to learn new technologies and stay up-to-date with the latest web development trends.
@@ -22,19 +23,19 @@ const About: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <User size={20} className="text-blue-600 mr-2" />
-                <span>John Doe</span>
+                <span>Chris-Brien Glaze</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-blue-600 mr-2" />
-                <a href="mailto:john@example.com" className="hover:text-blue-600">john@example.com</a>
+                <a href="mailto:john@example.com" className="hover:text-blue-600">cb.glaze@glazedev.com</a>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-blue-600 mr-2" />
-                <a href="tel:+1234567890" className="hover:text-blue-600">+1 (234) 567-890</a>
+                <a href="tel:+1234567890" className="hover:text-blue-600">+1 (226) 998-4202</a>
               </li>
               <li className="flex items-center">
                 <MapPin size={20} className="text-blue-600 mr-2" />
-                <span>New York, USA</span>
+                <span>London, Ontario, Canada</span>
               </li>
             </ul>
           </div>
