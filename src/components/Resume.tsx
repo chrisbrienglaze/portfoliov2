@@ -33,11 +33,11 @@ const Resume: React.FC = () => {
                 <p> 
                   <ul className="list-disc ml-6 inline-block ">
                     <li>Triage front line issues and reproduce if possible. Coordinate with QA team to update test case.</li>
-                    <li>Coordinatingtheengineeringteamtofixortroubleshootissue.</li>
-                    <li>UpdatedocumentationforRunBuggysoftwareandtechnicalnotes.</li>
-                    <li>WritescriptsinNodejsandPythontoaugmentsystemdatastructure.</li>
+                    <li>Coordinating the engineering team to fix or troubleshoot issue.</li>
+                    <li>Update documentation for RunBuggy software and technical notes.</li>
+                    <li>Write scripts in Nodejs and Python to augment system data structure.</li>
                     <li>for migration or to automate the process of fixing issue.</li>
-                    <li>Monitoringofthesystemshealthanduptime.</li>
+                    <li>Monitoring of the systems health and uptime.</li>
                   </ul>
                 </p>
             </div>
@@ -51,6 +51,20 @@ const Resume: React.FC = () => {
                     <li>Analyze complex data to optimize application functionality, ensuring solutions align with strategic business goals and enhance user satisfaction.</li>
                     <li>Develop solutions to foster efficiency within the operations department.</li>
                     <li>Provide system training and documentation for new hires.</li>
+                    <li>Perform data analysis and generate reports for executives to aid in operational planning.</li> 
+                  </ul>
+                </p>
+            </div>
+            <div className="mb-6">
+              <h4 className="text-xl font-medium">Software Development Specialist (.Net developer)</h4>
+              <p className="text-gray-600">Conduent | 2007 - 2017</p>
+              <p className="mt-2">Responsibilities:</p>
+                <p> 
+                  <ul className="list-disc ml-6 inline-block ">
+                    <li>Developed and implemented multiple desktop and web solutions.</li>
+                    <li>Create client reports using Microsoft Reporting Services.</li>
+                    <li>Optimize,test and debug existing programs within workflow.</li>
+                    <li>Technologies used: SP.NET, MVC, HTML5, TFS, JavaScript and SQL.</li>
                     <li>Perform data analysis and generate reports for executives to aid in operational planning.</li> 
                   </ul>
                 </p>

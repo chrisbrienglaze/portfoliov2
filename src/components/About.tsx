@@ -9,7 +9,8 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="md:w-1/3 mb-8 md:mb-0">
             <div className="w-48 h-48 mx-auto bg-gray-300 rounded-full overflow-hidden">
-              <img src="https://source.unsplash.com/random/200x200?face" alt="Profile" className="w-full h-full object-cover" />
+              <img src="./images/myphoto.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full ring-2 ring-gray-300 dark:ring-gray-500" />
+             
             </div>
           </div>
           <div className="md:w-2/3 md:pl-8">
@@ -17,7 +18,7 @@ const About: React.FC = () => {
               Hello! I'm Chris-Brien Glaze,</p>
              <p className="text-md mb-4">  
              As a software developer with over 14+ years of experience in the industry, I have a proven track record of success in software development and design.
-             My strengths lie in a diverse range of areas, including web, desktop, and mobile development, as well as extensive backend experience.
+             </p><p>My strengths lie in a diverse range of areas, including web, desktop, and mobile development, as well as extensive backend experience.
              With my comprehensive skill set, I am equipped to handle all aspects of the software development life cycle, from conceptualization and design to development, testing, and deployment.
             </p>
             <p className="text-md mb-4 mt-2">
