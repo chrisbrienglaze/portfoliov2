@@ -102,6 +102,17 @@ const Resume: React.FC = () => {
               <li>Python</li>
               <li>SQL</li>
               <li>Git</li>
+              <li>MongoDB</li>
+              <li>C#</li>
+              <li>PHP</li> 
+              <li>Flutter (Dart)</li>
+              <li>C,C++</li>
+              <li>MSSQL</li>
+              <li>MySql</li>
+              <li>Swift</li>
+              <li>Kotlin</li>
+              <li>Jira</li>
+              <li>Kotlin</li>
               <li>Agile Methodologies</li>
             </ul>
           </div>

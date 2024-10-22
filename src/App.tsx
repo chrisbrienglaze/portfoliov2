@@ -6,7 +6,7 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Experience from './components/Experience';
-import Pricing from './components/Pricing';
+//import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Portfolio />
         <Resume />
         <Experience />
-        <Pricing />
+        {/* <Pricing /> */}
         <Contact />
       </main>
       <footer className="bg-gray-800 text-white text-center py-4">
