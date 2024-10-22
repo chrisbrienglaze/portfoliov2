@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className={`text-2xl font-bold ${isScrolled ? 'text-blue-600' : 'text-white'}`}>Your Name</h1>
+        <h1 className={`text-2xl font-bold ${isScrolled ? 'text-blue-600' : 'text-white'}`}>Glaze DEV</h1>
         <nav className="hidden md:block">
           <ul className="flex space-x-6">
             {navItems.map((item) => (
@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
         </button>
       </div>
       {isMenuOpen && (
-        <nav className={`md:hidden ${isScrolled ? 'bg-white' : 'bg-black bg-opacity-50'}`}>
+        <nav className={`md:hidden ${isScrolled ? 'bg-white' : 'bg-black bg-opacity-90'}`}>
           <ul className="flex flex-col items-center py-4">
             {navItems.map((item) => (
               <li key={item}>

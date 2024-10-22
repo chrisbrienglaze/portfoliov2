@@ -13,11 +13,14 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="md:w-2/3 md:pl-8">
-            <p className="text-lg mb-4">
-              Hello! I'm John Doe,</p>
-             <p>  I'am  passionate web designer and developer with 5 years of experience. I specialize in creating beautiful, functional, and user-friendly websites that help businesses grow online.
+            <p className="text-md mb-4">
+              Hello! I'm Chris-Brien Glaze,</p>
+             <p className="text-md mb-4">  
+             As a software developer with over 14+ years of experience in the industry, I have a proven track record of success in software development and design.
+             My strengths lie in a diverse range of areas, including web, desktop, and mobile development, as well as extensive backend experience.
+             With my comprehensive skill set, I am equipped to handle all aspects of the software development life cycle, from conceptualization and design to development, testing, and deployment.
             </p>
-            <p className="text-lg mb-4">
+            <p className="text-md mb-4 mt-2">
               My skills include HTML, CSS, JavaScript, React, and Node.js. I'm always eager to learn new technologies and stay up-to-date with the latest web development trends.
             </p>
             <ul className="space-y-2">
@@ -27,7 +30,7 @@ const About: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-blue-600 mr-2" />
-                <a href="mailto:john@example.com" className="hover:text-blue-600">cb.glaze@glazedev.com</a>
+                <a href="mailto:chrisbrien.glaze@gmail.com" className="hover:text-blue-600">cb.glaze@glazedev.com</a>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-blue-600 mr-2" />

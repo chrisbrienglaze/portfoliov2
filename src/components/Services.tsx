@@ -10,8 +10,8 @@ const Services: React.FC = () => {
     },
     {
       icon: <Palette size={48} />,
-      title: 'UI/UX Design',
-      description: 'Intuitive and visually appealing interfaces for optimal user experience.',
+      title: 'Desktop App Development',
+      description: 'Create Intuitive and visually appealing interfaces for optimal user experience.',
     },
     {
       icon: <Smartphone size={48} />,

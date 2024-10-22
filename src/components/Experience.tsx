@@ -4,22 +4,32 @@ import { Briefcase } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      company: 'Tech Company A',
-      position: 'Senior Software Developer',
-      period: 'Jan 2020 - Present',
-      description: 'Led a team of 5 developers in creating a scalable e-commerce platform. Implemented microservices architecture and improved system performance by 40%.',
+      company: 'Trojan Technologies',
+      position: 'Software Developer',
+      period: 'May 2023 - Present',
+      description: 'Worked as a software developer for itel international ',
+      image: './images/trojan_logo.jpeg',
     },
     {
-      company: 'Tech Startup B',
-      position: 'Full Stack Developer',
-      period: 'Mar 2017 - Dec 2019',
-      description: 'Developed and maintained multiple web applications using React and Node.js. Collaborated with UX designers to implement responsive designs.',
+      company: 'Itel International',
+      position: 'Software Developer',
+      period: 'Mar 2021 - May 2023',
+      description: 'Worked as a software developer for itel international ',
+      image: './images/itel_logo.jpeg'
     },
     {
-      company: 'Software Corp C',
-      position: 'Junior Developer',
-      period: 'Jun 2015 - Feb 2017',
+      company: 'MBJ Airport Ltd',
+      position: 'Operation Tech Support',
+      period: 'Jan 2018 - May 2021',
+      description: 'Worked in the operations department at MBJ Airport.',
+      image: './images/mbj_logo.jpeg',
+    },
+    {
+      company: 'Conduent',
+      position: 'Software Development Specialist',
+      period: 'Jul 2007 - Dec 2017',
       description: 'Assisted in the development of internal tools and participated in code reviews. Gained experience in Agile methodologies and version control systems.',
+      image: './images/conduent_logo.jpeg',
     },
   ];
 
@@ -31,8 +41,8 @@ const Experience: React.FC = () => {
           {experiences.map((exp, index) => (
             <div key={index} className="mb-8 bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <Briefcase size={24} className="text-blue-600 mr-2" />
-                <h3 className="text-xl font-semibold">{exp.position}</h3>
+                <img src={exp.image} alt="logo" width="50"/>
+                 <h3 className="text-xl font-semibold">{exp.position}</h3>
               </div>
               <p className="text-gray-600 mb-2">{exp.company}</p>
               <p className="text-sm text-gray-500 mb-4">{exp.period}</p>
