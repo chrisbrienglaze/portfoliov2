@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
-                  className={`hover:text-blue-600 transition-colors ${isScrolled ? 'text-gray-800' : 'text-white'}`}
+                  className={`hover:text-white transition-colors ${isScrolled ? 'text-white' : 'text-white'}`}
                 >
                   {item}
                 </a>

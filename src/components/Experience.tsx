@@ -36,7 +36,7 @@ const Experience: React.FC = () => {
   return (
     <section id="experience" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Work Experience</h2>
+        <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center">Work Experience</h2>
         <div className="max-w-3xl mx-auto">
           {experiences.map((exp, index) => (
             <div key={index} className="mb-8 bg-white p-6 rounded-lg shadow-md">

@@ -5,11 +5,11 @@ const Resume: React.FC = () => {
   return (
     <section id="resume" className="py-16 md:py-32">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Resume</h2>
+        <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center">Resume</h2>
         <div className="max-w-3xl mx-auto">
           <div className="mb-12">
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
-              <Briefcase size={24} className="text-blue-600 mr-2" />
+              <Briefcase size={24} className="text-orange-600 mr-2" />
               Work Experience
             </h3>
             <div className="mb-6">
@@ -72,7 +72,7 @@ const Resume: React.FC = () => {
           </div>
           <div className="mb-12">
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
-              <GraduationCap size={24} className="text-blue-600 mr-2" />
+              <GraduationCap size={24} className="text-orange-600 mr-2" />
               Education
             </h3>
             <div className="mb-6">
@@ -93,7 +93,7 @@ const Resume: React.FC = () => {
           </div>
           <div>
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
-              <Award size={24} className="text-blue-600 mr-2" />
+              <Award size={24} className="text-orange-600 mr-2" />
               Skills
             </h3>
             <ul className="list-disc list-inside grid grid-cols-2 gap-2">

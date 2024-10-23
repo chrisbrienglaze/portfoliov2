@@ -20,19 +20,19 @@ const Services: React.FC = () => {
     },
     {
       icon: <Globe size={48} />,
-      title: 'SEO Optimization',
-      description: 'Improve your website\'s visibility and ranking on search engines.',
+      title: 'Consultation',
+      description: 'I offer consulting services for app development, helping businesses create efficient, scalable, and user-friendly applications tailored to their needs.',
     },
   ];
 
   return (
     <section id="services" className="py-16 md:py-32 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">My Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <h2 className="text-3xl text-gray-800 font-bold mb-8 text-center">My Services</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="text-blue-600 mb-4">{service.icon}</div>
+              <div className="text-orange-600 mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
             </div>

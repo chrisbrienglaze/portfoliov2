@@ -5,7 +5,7 @@ const About: React.FC = () => {
   return (
     <section id="about" className="py-16 md:py-32">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="md:w-1/3 mb-8 md:mb-0">
             <div className="w-48 h-48 mx-auto bg-gray-300 rounded-full overflow-hidden">
@@ -26,19 +26,19 @@ const About: React.FC = () => {
             </p>
             <ul className="space-y-2">
               <li className="flex items-center">
-                <User size={20} className="text-blue-600 mr-2" />
+                <User size={20} className="font-bold text-orange-600 mr-2" />
                 <span>Chris-Brien Glaze</span>
               </li>
               <li className="flex items-center">
-                <Mail size={20} className="text-blue-600 mr-2" />
+                <Mail size={20} className="text-orange-600 mr-2" />
                 <a href="mailto:chrisbrien.glaze@gmail.com" className="hover:text-blue-600">cb.glaze@glazedev.com</a>
               </li>
               <li className="flex items-center">
-                <Phone size={20} className="text-blue-600 mr-2" />
+                <Phone size={20} className="text-orange-600 mr-2" />
                 <a href="tel:+1234567890" className="hover:text-blue-600">+1 (226) 998-4202</a>
               </li>
               <li className="flex items-center">
-                <MapPin size={20} className="text-blue-600 mr-2" />
+                <MapPin size={20} className="text-orange-600 mr-2" />
                 <span>London, Ontario, Canada</span>
               </li>
             </ul>
