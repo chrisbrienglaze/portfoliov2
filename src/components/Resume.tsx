@@ -111,6 +111,7 @@ const Resume: React.FC = () => {
               <li>MySql</li>
               <li>Swift</li>
               <li>Kotlin</li>
+              <li>JAVA (SpringBoot)</li>
               <li>Jira</li>
               <li>Kotlin</li>
               <li>Agile Methodologies</li>

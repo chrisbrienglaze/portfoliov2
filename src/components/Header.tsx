@@ -28,9 +28,9 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const navItems = ['Home', 'About', 'Services', 'Portfolio', 'Resume', 'Contact'];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-gradient-to-r from-red-500 to-pink-500 bg-red-500 font-white shadow-md' : 'bg-gradient-to-r from-red-500 to-pink-500 bg-red-500'}`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className={`text-2xl font-bold ${isScrolled ? 'text-blue-600' : 'text-white'}`}>Glaze DEV</h1>
+        <h1 className={`text-2xl font-bold ${isScrolled ? 'text-white' : 'text-white'}`}>Glaze DEV</h1>
         <nav className="hidden md:block">
           <ul className="flex space-x-6">
             {navItems.map((item) => (
