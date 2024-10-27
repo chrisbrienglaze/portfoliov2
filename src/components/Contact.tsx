@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
                 </li>
                 <li className="flex items-center">
                   <Phone size={20} className="text-orange-600 mr-2" />
-                  <a href="tel:+1234567890" className="hover:text-blue-600">+1 (111) 000-0000</a>
+                  <a href="tel:+2269984202" className="hover:text-blue-600">+1 (226) 998-4202</a>
                 </li>
                 <li className="flex items-center">
                   <MapPin size={20} className="text-orange-600 mr-2" />

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
               window.URL.createObjectURL(blob);
               
           // Setting various property values
-          let alink = document.createElement("a");
+          const alink = document.createElement("a");
           alink.href = fileURL;
           alink.download = "Chris-Brien Glaze-SoftwareEngineer.pdf";
           alink.click();
@@ -43,20 +43,19 @@ const Hero: React.FC = () => {
           <h2 className="text-5xl md:text-4xl font-bold leading-tight text-gray-800">
             Mobile | Web | Backend Developer
           </h2>
-          <p className="text-gray-700 max-w-xl">
+          <p className="text-gray-700 max-w-4xl">
           As a software developer with over 14+ years of experience in the industry, I have a proven track record of success in software development and design.
-          </p>
-<p className="text-gray-700 max-w-xl"> I am skilled in all stages of the software development life cycle, from design to deployment, using technologies like HTML, CSS, JavaScript, React, and Node.js. I'm also committed to staying current with new technologies and web development trends.</p>
+         I am skilled in all stages of the software development life cycle, from design to deployment, using technologies like HTML, CSS, JavaScript, React, and Node.js. I'm also committed to staying current with new technologies and web development trends.</p>
 
           <div className="flex gap-4 pt-4">
-            <button className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition flex items-center gap-2">
+            <button className="bg-red-500 shadow-xl text-white px-6 py-3 rounded-lg hover:bg-red-600 transition flex items-center gap-2">
               Hire Me
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </button>
             {/* <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-[54px] px-6 py-2 min-w-[166px] gap-x-2">Download CV <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg></button>*/}
-            <button className="border-2 bg-gray-800 border-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-100 transition flex items-center gap-2" onClick={onDownloadCVClick}>
+            <button className="border-2 bg-gray-800 shadow-xl border-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-100 transition flex items-center gap-2" onClick={onDownloadCVClick}>
               Download CV
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -67,11 +66,11 @@ const Hero: React.FC = () => {
 
         {/* Right Content - Profile Image */}
         <div className="relative">
-          <div className="w-[250px] h-[250px] md:w-[250px] md:h-[250px] bg-pink-600 rounded-full relative overflow-hidden">
+          <div className="w-[250px] h-[250px] md:w-[250px] md:h-[250px] bg-red-600 rounded-full relative overflow-hidden">
             <div className="absolute inset-0 bg-blue-100 rounded-full m-1">
               {/* Replace with your image */}
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-              <img src="./images/myphoto.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full ring-2 ring-gray-300 dark:ring-gray-500" />
+              <img src="./images/myphoto.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full ring-2 ring-gray-300 shadow-xl dark:ring-gray-500" />
              
                 {/* <span className="text-gray-600">Profile Image</span> */}
 
@@ -83,12 +82,19 @@ const Hero: React.FC = () => {
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white px-6 py-3 rounded-full shadow-lg flex items-center gap-1">
             <span className="text-sm text-gray-600"></span>
             <div className="flex gap-4">
-            {['LinkedIn', 'Github'].map((social) => (
-                <button 
-                  key={social}
+            {[
+                { name: 'LinkedIn', url: 'https://www.linkedin.com/in/chris-brien-glaze/' },
+                { name: 'Github', url: 'https://github.com/chrisbrienglaze' }
+              ].map((social) => (
+
+
+                <a 
+                  key={social.name}
+                  href={social.url}
+                  rel = "noopener noreferrer" 
                   className="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300"
                 >
-                  {social === 'LinkedIn' ? (
+                  {social.name === 'LinkedIn' ? (
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path
                         fillRule="evenodd"
@@ -104,7 +110,7 @@ const Hero: React.FC = () => {
                       />
                     </svg>
                   )}
-                </button>
+                </a>
               ))}
             </div>
           </div>

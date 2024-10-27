@@ -6,22 +6,22 @@ const Services: React.FC = () => {
     {
       icon: <Code size={48} />,
       title: 'Web Development',
-      description: 'Custom web applications tailored to your specific needs.',
+      description: 'I offer comprehensive web development services focused on creating robust web systems tailored to meet your specific business needs. Utilizing the latest technologies and frameworks, I develop scalable and secure web applications that enhance user experience and drive engagement. Whether you require a dynamic website, a complex web application, or an integrated system, I work closely with you to ensure the final product aligns perfectly with your vision and objectives. My commitment to quality and attention to detail guarantee that your web system will perform seamlessly across all devices and platforms.',
     },
     {
       icon: <Palette size={48} />,
       title: 'Desktop App Development',
-      description: 'Create Intuitive and visually appealing interfaces for optimal user experience.',
+      description: `I specialize in desktop app development, delivering powerful applications designed to enhance productivity and user experience. With a focus on both Windows and macOS platforms, I create tailored solutions that integrate seamlessly with your existing systems. My expertise in various programming languages and frameworks enables me to develop intuitive, high-performance desktop applications that cater to your specific requirements. Whether you're looking for a standalone software solution or a more complex system that requires custom functionality, I am committed to providing robust and efficient desktop applications that meet your business goals.`,
     },
     {
       icon: <Smartphone size={48} />,
       title: 'Mobile App Development',
-      description: 'Native and cross-platform mobile applications for iOS and Android.',
+      description: 'I specialize in mobile app development, creating innovative and user-friendly applications tailored for both iOS and Android platforms. Whether you need native apps designed to leverage the full capabilities of each operating system or cross-platform solutions that ensure a consistent experience across devices, I provide end-to-end development services. My approach combines modern design principles with robust functionality, ensuring your mobile application stands out in a competitive market.',
     },
     {
       icon: <Globe size={48} />,
       title: 'Consultation',
-      description: 'I offer consulting services for app development, helping businesses create efficient, scalable, and user-friendly applications tailored to their needs.',
+      description: `I offer comprehensive consulting services for mobile, desktop, and web systems, ensuring you have the expert guidance needed to make informed decisions for your projects. Whether you're looking to develop native or cross-platform mobile applications, robust desktop software, or dynamic web systems, I provide tailored strategies that align with your business objectives. My extensive experience across various platforms allows me to assess your needs accurately, recommend the best technologies, and streamline the development process. Let me help you navigate the complexities of software development, optimizing your solutions for performance, usability, and scalability`,
     },
   ];
 

@@ -16,7 +16,7 @@ const Resume: React.FC = () => {
               <h4 className="text-xl font-medium">Application Developer</h4>
               <p className="text-gray-600">TrojanTechnologies | 2023 - Present</p>
               <p className="mt-2">Responsibilities:</p>
-              <p> 
+              
                 <ul className="list-disc ml-6 inline-block">
                     <li>Develop, deploy, and maintain software applications using various technologies.</li>
                     <li>Perform code reviews, versioning with Gitlab to assert code integrity and collaboration.</li>
@@ -24,13 +24,13 @@ const Resume: React.FC = () => {
                     <li>Document code thoroughly to maintain clarity and facilitate future maintenance and development.</li>
                     <li>Implement innovative software solutions, leveraging cutting-edge technology to streamline processes and boost operational efficiency.</li>
                 </ul>
-              </p>
+              
             </div>
             <div className="mb-6">
               <h4 className="text-xl font-medium">Software Developer</h4>
               <p className="text-gray-600">Itel International | 2021 - 2023</p>
               <p className="mt-2">Responsibilities:</p>
-                <p> 
+                
                   <ul className="list-disc ml-6 inline-block ">
                     <li>Triage front line issues and reproduce if possible. Coordinate with QA team to update test case.</li>
                     <li>Coordinating the engineering team to fix or troubleshoot issue.</li>
@@ -39,13 +39,13 @@ const Resume: React.FC = () => {
                     <li>for migration or to automate the process of fixing issue.</li>
                     <li>Monitoring of the systems health and uptime.</li>
                   </ul>
-                </p>
+                
             </div>
             <div className="mb-6">
               <h4 className="text-xl font-medium">Operations Tech Support</h4>
               <p className="text-gray-600">MBJ Airports Ltd | 2018 - 2021</p>
               <p className="mt-2">Responsibilities:</p>
-                <p> 
+               
                   <ul className="list-disc ml-6 inline-block ">
                     <li>Administered Airport Management System.</li>
                     <li>Analyze complex data to optimize application functionality, ensuring solutions align with strategic business goals and enhance user satisfaction.</li>
@@ -53,13 +53,13 @@ const Resume: React.FC = () => {
                     <li>Provide system training and documentation for new hires.</li>
                     <li>Perform data analysis and generate reports for executives to aid in operational planning.</li> 
                   </ul>
-                </p>
+                
             </div>
             <div className="mb-6">
               <h4 className="text-xl font-medium">Software Development Specialist (.Net developer)</h4>
               <p className="text-gray-600">Conduent | 2007 - 2017</p>
               <p className="mt-2">Responsibilities:</p>
-                <p> 
+               
                   <ul className="list-disc ml-6 inline-block ">
                     <li>Developed and implemented multiple desktop and web solutions.</li>
                     <li>Create client reports using Microsoft Reporting Services.</li>
@@ -67,7 +67,7 @@ const Resume: React.FC = () => {
                     <li>Technologies used: SP.NET, MVC, HTML5, TFS, JavaScript and SQL.</li>
                     <li>Perform data analysis and generate reports for executives to aid in operational planning.</li> 
                   </ul>
-                </p>
+                
             </div>
           </div>
           <div className="mb-12">
